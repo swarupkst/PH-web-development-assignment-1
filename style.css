@@ -160,7 +160,7 @@ nav button:hover{
  }
 
  .card{
-   width: 250px;
+   width: 220px;
    height: 200px;
    padding: 40px;
    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.144);
@@ -182,4 +182,56 @@ nav button:hover{
    align-items: center;
    gap: 24px;
    margin-top: 44px;
+ }
+
+ 
+
+ .img-comp{
+   display: flex;
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+   padding: 120px;
+ }
+ .image{
+   border-radius: 12px;
+   height: 700px;
+   width: auto;
+ }
+
+ .component{
+   padding-top: -1000px;
+ }
+
+ .sidetext{
+   color: #469165;
+   font-size: 16px;
+   font-weight: 500;
+ }
+ .component h4{
+   font-size: 48px;
+   margin-top: 16px;
+   margin-right: 150px;
+ }
+
+.knowlage-p{
+   color: #627382;
+   font-size: 16px;
+   margin-top: 16px;
+ }
+
+ .p-4{
+   margin-top: 40px;
+   font-size: 16px;
+   font-weight: 500;
+ }
+
+ .p-4 p{
+   margin-top: 16px;
+ }
+
+ .check{
+   color: #30B868;
  }
