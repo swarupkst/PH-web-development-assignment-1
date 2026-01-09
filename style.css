@@ -57,8 +57,8 @@ nav button:hover{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 1600px;
-    width: auto;
+    max-width: full;
+    width: full;
     align-items: center;
     margin: 0px auto;
     text-align: center;
@@ -145,7 +145,12 @@ nav button:hover{
    text-align: center;
    background-color: white;
    margin: 0 auto;
+   /* padding: 0px 120px 120px 120px; */
+ }
+
+ .hero-text2{
    padding: 0px 120px 120px 120px;
+   background-color: #fcfcfc;
  }
  
 
@@ -203,10 +208,13 @@ nav button:hover{
    justify-content: center;
    align-items: center;
    gap: 60px;
-   padding: 110px;
+   padding: 120px;
+   justify-content: space-between;
  }
  .image{
    border-radius: 12px;
+   width: 350px;
+   height: auto;
 
  }
 
@@ -217,11 +225,13 @@ nav button:hover{
    font-weight: 500;
  }
  .component h4{
-   font-size: 36px;
+   font-size: 48px;
    margin-top: 16px;
    /* margin-right: 150px; */
  }
-
+.component{
+   padding-right: 50px;
+}
 .knowlage-p{
    color: #627382;
    font-size: 16px;
@@ -248,12 +258,20 @@ nav button:hover{
    justify-content: center;
    text-align: center;
    margin: 0 auto;
-   padding: 2px 120px 120px 120px;
+   /* padding: 2px 120px 120px 120px; */
 }
+
+.be-fo{
+   
+   background-color: #ffffff;
+   padding: 0px 120px 120px 120px;
+}
+
 
 .think-more{
    padding: 80px 40px;
    background-color: #F7F6F2;
+
 }
 
 .think-more h4{
@@ -320,4 +338,10 @@ footer{
 }
 .right-footer{
    text-align: left;
+}
+
+hr{
+   border: none;
+   height: 1px;
+   background: #E5E7EB;
 }
